@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+  <style>
+    .fire {
+      background-color: yellow;
+    }
+    #myDiv {
+      color: maroon;
+    }
+  </style>
+</head>
 <body>
   <h1>Practice Problems Webpage</h1>
+  <h2>Hello World</h2>
+  
+  <button>Push Me</button>
+  
+  <div id="myDiv">This div should change color</div>
+  <button class="fire">Change Color</button>
+  
   <p>All your solutions for this set of practice problems are located in the Replit solution file. Please open the webview in a new tab in the upper right corner. Once open in a new tab, <b>open the Chrome Dev tools</b>.
   </p>
   <script>
     /* 
     PROBLEM 1: Using the Elements panel of Chrome Dev tools, locate the h1 element and modify its text content to say "Hello, World!". If you refresh the page, does the heading change? 
     */
-    //ENTER YOUR ANSWER HERE
+    // Yes, the heading is changing then returns to original when page is refreshed.
      
     /* 
     PROBLEM 2: Create an h2 element that says "Hello, World" in the HTML above. Using the elements panel again, locate the h1 element and modify its content to say "I'm changing the DOM". If you refresh the page, does the h2 change?
     */
-    //ENTER YOUR ANSWER HERE
+    // The h2 element returns to Hello World after page is refreshed.
     
      /* 
     PROBLEM 3: Create a button element that says "Push me" in the HTML above. Using the Elements panel, locate the button element and add a class of "btn" to it. Style the button by adding custom CSS rules within the Styles panel. Does the button still have the styles after a page refresh? Explain your answer.
     */
-    //ENTER YOUR ANSWER HERE
+    // Button style changes revert to original when page is refreshed.
 
     /* 
     PROBLEM 4: Open the Chrome DevTools on any webpage. Using the Elements panel, locate a paragraph element and modify its CSS properties, such as changing the font size, color, or adding a background color. Explain how we are able to make changes on the browser.
     */
-    //ENTER YOUR ANSWER HERE 
+    // Changes are made in the browser with DOM manipulation, then revert to original styling after refresh.
 
 
     /* 
     PROBLEM 5 (DEBUGGING): The following code has two bugs that are throwing a Syntax error and a style is not being applied. Find the bugs and code them correctly above in the HTML.
+    
+    // class syntax incorrect; added myDiv id to css styles
 
     <!DOCTYPE html>
 <html>
